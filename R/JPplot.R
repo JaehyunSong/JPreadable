@@ -1,5 +1,5 @@
 JPplot <- function(JPresult){
-  result.df <- JPresult[[1]]
+  result.df <- JPresult[[2]]
 
   plot(result.df$grade, result.df$ns, type = "l",
        xlab = "Grade", ylab = "Liklihood")
