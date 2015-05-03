@@ -12,7 +12,7 @@ JPR_multiple(file.df)
 \item{file.df}{information of text file. The data frame must have three columns. The First column is id, the second is description, the third is filename(include path)}
 }
 \value{
-List type
+data.frame
 }
 \description{
 Measuring Japanese readability (Multiple ver.)

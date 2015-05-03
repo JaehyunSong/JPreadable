@@ -12,7 +12,7 @@ JPreadable(file)
 \item{file}{a name of text file(include its path)}
 }
 \value{
-List type
+List type(Raw text, Liklihood table, Grades with maximum liklihood, Median)
 }
 \description{
 Measuring Japanese readability
@@ -23,5 +23,8 @@ JPreadble("sample_text.txt")
 }
 \author{
 Jaehyun SONG
+}
+\references{
+Satoshi Sato, Suguru Matsuyoshi and Yohsuke Kondoh. 2008. Automatic Assessment of Japanese Text Readability Based on a Textbook Corpus. Proceedings of the Sixth International Language Resources and Evaluation (LREC’08). European Language Resources Association (ELRA). Marrakech, Morocco
 }
 

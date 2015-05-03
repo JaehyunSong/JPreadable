@@ -7,7 +7,7 @@
 #' @usage JPR_multiple(file.df)
 #'
 #' @param file.df information of text file. The data frame must have three columns. The First column is id, the second is description, the third is filename(include path)
-#' @return List type
+#' @return data.frame
 #'
 #' @examples
 #' setwd("/User/Username/Documents/")
