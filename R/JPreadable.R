@@ -1,3 +1,19 @@
+#' @name JPreadable
+#' @title Measuring Japanese readability
+#' @author Jaehyun SONG
+#' @description Measuring Japanese readability
+#' @docType package
+#'
+#' @usage JPreadable(file)
+#'
+#' @param file a name of text file(include its path)
+#' @return List type
+#'
+#' @examples
+#' setwd("/User/Username/Documents/")
+#' JPreadble("sample_text.txt")
+NULL
+
 JPreadable <- function(file){
   sample.text <- paste(scan(file, character(0)), collapse = "")
   raw.text <- sample.text
