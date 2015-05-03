@@ -10,6 +10,8 @@ JPR_multiple(file.df)
 }
 \arguments{
 \item{file.df}{information of text file. The data frame must have three columns. The First column is id, the second is description, the third is filename(include path)}
+
+\item{result.only}{Show only results without likihood(default is FALSE)}
 }
 \value{
 data.frame
