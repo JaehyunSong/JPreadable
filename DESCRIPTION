@@ -1,0 +1,10 @@
+Package: JPreadable
+Type: Package
+Title: Measuring Japanese Readability
+Version: 0.1
+Date: 2015-05-03
+Author: Jaehyun Song
+Maintainer: Jaehyun Song <jaehyun.song@stu.kobe-u.ac.jp>
+Description: Measuring Japanese Readability
+License: MIT
+LazyData: yes
