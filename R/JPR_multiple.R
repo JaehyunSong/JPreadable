@@ -17,7 +17,7 @@ NULL
 
 
 JPR_multiple <- function(file.df){
-  empty.vector <- rep(NA, nrow(filelist))
+  empty.vector <- rep(NA, nrow(file.df))
   result.df <- data.frame(id = empty.vector,
                           text  = empty.vector,
                           max_ns = empty.vector,
