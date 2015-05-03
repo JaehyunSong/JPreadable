@@ -29,10 +29,10 @@ JPR_multiple <- function(file.df){
                           result = empty.vector)
 
   for(i in 1:nrow(filelist)){
-    temp.result <- JPreadable(as.character(filelist$file_path[i]))
+    temp.result <- JPreadable(as.character(file.df[i, 3]))
 
-    result.df[i, ] <- c(filelist[i, 1],
-                        as.character(filelist[i, 2]),
+    result.df[i, ] <- c(file.df[i, 1],
+                        as.character(file.df[i, 2]),
                         temp.result[[3]][1],
                         round(temp.result[[2]][temp.result[[3]][1], 2], 3),
                         temp.result[[3]][2],
