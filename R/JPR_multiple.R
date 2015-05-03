@@ -28,7 +28,7 @@ JPR_multiple <- function(file.df){
                           max_s3_lik = empty.vector,
                           result = empty.vector)
 
-  for(i in 1:nrow(filelist)){
+  for(i in 1:nrow(file.df)){
     temp.result <- JPreadable(as.character(file.df[i, 3]))
 
     result.df[i, ] <- c(file.df[i, 1],
